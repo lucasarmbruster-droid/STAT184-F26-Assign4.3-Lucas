@@ -4,8 +4,8 @@ This repository organizes the code, documentation, and project structure for STA
 
 ## Implementation
 
-The way I went about turning the data from a raw csv file to a clean table for people to read was by using the functions provided in the `tidyverse`, `janitor`, `knitr`, and `kableExtra` packages.  First, I was able to filter out the dataset by sex for their own tables and cross formatted branch and rank using `tably()`. 
-```
+The way I went about turning the data from a raw csv file to a clean table for people to read was by using the functions provided in the `tidyverse`, `janitor`, `knitr`, and `kableExtra` packages.  First, I was able to filter out the dataset by sex for their own tables and cross formatted branch and rank using `tabyl()`. 
+```r
 filter(sex == "Male") %>% 
 tabyl(branch, rank) 
 ```
@@ -18,3 +18,11 @@ The script successfully transforms over 1.25 million individual personnel record
 ![Formatted summary table of military personnel by branch and rank](https://github.com/user-attachments/assets/2e345fbe-8db5-4dfc-876d-eff5dbc9bbbe)
 
 Through this assignment, I learned how to combine `janitor::tabyl()` with `knitr` and `kableExtra` to summarize large raw datasets into readable, styled tables. This workflow will be directly useful for presenting clean data summaries in future R scripts and Quarto reports.
+
+## Contact
+
+If you have any questions about this repository or would like to connect, feel free to reach out:
+
+* **Name:** Lucas Armbruster
+* **Email:** laa5807@psu.edu
+* **GitHub:** lucasarmbruster-droid
