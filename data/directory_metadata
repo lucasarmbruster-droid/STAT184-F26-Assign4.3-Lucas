@@ -1,0 +1,6 @@
+This directory stores the local data files used by the R script in this repository for Assignment 3.2.
+
+Contents:
+- Total files: 2 (1 data file and this metadata file), 0 subfolders.
+- individual_data.csv: A CSV dataset containing individual-level soldier records used for data wrangling and analysis in the assignment script. This file is listed in .gitignore so it remains stored locally and is not uploaded to the remote GitHub repository.
+- directory_metadata.txt: This text file, which documents the contents and purpose of the data directory for anyone viewing the repository online.
