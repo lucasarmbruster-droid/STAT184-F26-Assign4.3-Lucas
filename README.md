@@ -10,3 +10,11 @@ filter(sex == "Male") %>%
 tabyl(branch, rank) 
 ```
 To make the tables look more professional, I formatted the numbers and bolded key rows and columns using `kableExtra`.
+
+## Results
+
+The script successfully transforms over 1.25 million individual personnel records into two clean summary tables, one for male service members and one for female service members, comparing rank distributions across all five military branches (Air Force, Army, Marine Corps, Navy, and Space Force). Each cell displays both the raw headcount and the corresponding percentage, with bolded totals for quick reference.
+
+![Formatted summary table of military personnel by branch and rank](https://github.com/user-attachments/assets/2e345fbe-8db5-4dfc-876d-eff5dbc9bbbe)
+
+Through this assignment, I learned how to combine `janitor::tabyl()` with `knitr` and `kableExtra` to summarize large raw datasets into readable, styled tables. This workflow will be directly useful for presenting clean data summaries in future R scripts and Quarto reports.
